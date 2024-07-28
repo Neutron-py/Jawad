@@ -5,7 +5,7 @@
   "hints": {
     "compat-api/css": "off",
     "axe/name-role-value": [
-      "home-1.html",
+      "index.html",
       {
         "button-name": "off"
       }
