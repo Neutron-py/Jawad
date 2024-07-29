@@ -1832,7 +1832,7 @@ banner
      object-fit: contain;
 }
 .mil-portrait-frame .mil-nimbus {
-  background: radial-gradient(50% 50% at 50% 50%, rgb(101, 36, 161); 0%, rgba(250, 168, 69, 0) 100%);
+  background: radial-gradient(50% 50% at 50% 50%, rgb(101, 36, 161) 0%, rgba(250, 168, 69, 0) 100%);
   width: 100%;
   padding-bottom: 100%;
   position: absolute;
@@ -2850,7 +2850,170 @@ blog
 .mil-blog-card .mil-post-descr .mil-post-text {
   text-overflow: ellipsis;
   display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.mil-blog-card .mil-post-descr .mil-post-text a {
+  color: rgb(101, 36, 161);
+  -webkit-transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-blog-card .mil-post-descr .mil-post-text a:hover {
+  color: rgb(101, 36, 161);
+}
+.mil-blog-card .mil-post-descr .mil-post-date {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  margin-bottom: 15px;
+}
+.mil-blog-card .mil-post-descr .mil-post-author {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+.mil-blog-card .mil-post-descr .mil-post-author a {
+  color: rgb(101, 36, 161);
+  -webkit-transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-blog-card .mil-post-descr .mil-post-author a:hover {
+  color: rgb(101, 36, 161);
+}
+.mil-blog-card .mil-post-descr .mil-post-author .mil-post:author-icon {
+  margin-left: 15px;
+}
+.mil-blog-card .mil-post-descr .mil-post-author .mil-post:author-icon svg {
+  width: 15px;
+  height: 15px;
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card:hover .mil-cover-frame img {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.mil-blog-card.mil-blog-card-sm {
+  margin-bottom: 60px;
+}
+.mil-blog-card.mil-blog-card-sm .mil-cover-frame {
+  padding-bottom: 100%;
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr {
+  padding: 30px 0 0 0;
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-text {
   -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-date {
+  margin-bottom: 0;
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author {
+  margin-top: 15px;
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon {
+  margin-left: 5px;
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg {
+  width: 10px;
+  height: 10px;
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg path {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg rect {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg line {
+  stroke: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg circle {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg polygon {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg ellipse {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg path {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg rect {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg line {
+  stroke: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg circle {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg polygon {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg circle {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg rect {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg line {
+  stroke: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg polygon {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg ellipse {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg path {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg text {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg use {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg g  {
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg circle {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg rect {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg line {
+  stroke: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg polygon {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg ellipse {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg path {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg text {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg use {
+  fill: rgb(101, 36, 161);
+}
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg g {
+  fill: rgb(101, 36, 161);
+}
+
+.mil-blog-card.mil-blog-card-sm .mil-post-descr .mil-post-author .mil-post:author-icon svg path {
+  fill: rgb(101, 36, 161);
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
