@@ -715,11 +715,11 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-share__button--pt {
-    background: #bd081d
+    background: #8708bd
 }
 
 .fancybox-share__button--pt:hover {
-    background: #aa0719
+    background: #8708bd
 }
 
 .fancybox-share__button--tw {
@@ -840,7 +840,7 @@ body.compensate-for-scrollbar {
 }
 
 .fancybox-thumbs__list a:before {
-    border: 6px solid #ff5268;
+    border: 6px solid #c708e0;
     bottom: 0;
     content: "";
     left: 0;
