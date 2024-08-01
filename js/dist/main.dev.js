@@ -5,8 +5,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 /* -------------------------------------------
  Name: 		Ruizarch
 Version:    1.0
-Developer:	Nazar Miller (millerDigitalDesign)
-Portfolio:  https://themeforest.net/user/millerdigitaldesign/portfolio?ref=MillerDigitalDesign
+Developer:	Nazar miller (millerDigitalDesign)
+Portfolio:  https://themeforest.net/user/millerdigitaldesign/portfolio?ref=millerDigitalDesign
  p.s. I am available for Freelance hire (UI design, web development). email: miller.themes@gmail.com
  ------------------------------------------- */
 $(function () {
